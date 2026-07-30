@@ -1,0 +1,34 @@
+# Python / venv
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Dữ liệu (raw/processed không commit, chỉ giữ .gitkeep để giữ cấu trúc thư mục)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Credentials
+kaggle.json
+.env
+
+# Config/session cá nhân, không phải nội dung project
+.claude/
+
+# Ghi chú nội bộ, không public
+CLAUDE.md
+
+# Danh sách khách hàng theo từng dòng (dữ liệu cá nhân, chỉ dùng nội bộ)
+reports/high_risk_segment_410.csv
+
+# IDE / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# File tạm dùng khi debug, không commit
+_tmp_*
+*.log
